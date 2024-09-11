@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitkort</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-blue-900 font-sans">
+
+    <header class="bg-blue-600 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold tracking-wider">John Doe</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:underline font-semibold">About</a></li>
+                    <li><a href="#projects" class="hover:underline font-semibold">Projects</a></li>
+                    <li><a href="#skills" class="hover:underline font-semibold">Skills</a></li>
+                    <li><a href="#contact" class="hover:underline font-semibold">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container mx-auto my-12 p-6">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p class="text-lg leading-relaxed">Hi, I'm John Doe, a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects" class="bg-blue-100 py-12">
+        <div class="container mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <ul class="space-y-4">
+                <li><strong>Project 1:</strong> A web app for tracking tasks.</li>
+                <li><strong>Project 2:</strong> A portfolio website to showcase my work.</li>
+                <li><strong>Project 3:</strong> A blog platform for sharing tutorials.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="container mx-auto my-12 p-6">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <li class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-12 h-12">
+                <span class="mt-2 font-semibold">HTML</span>
+            </li>
+            <li class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-12 h-12">
+                <span class="mt-2 font-semibold">CSS</span>
+            </li>
+            <li class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-12 h-12">
+                <span class="mt-2 font-semibold">JavaScript</span>
+            </li>
+            <li class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-12 h-12">
+                <span class="mt-2 font-semibold">React</span>
+            </li>
+            <li class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-12 h-12">
+                <span class="mt-2 font-semibold">Node.js</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="bg-blue-100 py-12">
+        <div class="container mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <p>Email: <a href="mailto:john.doe@example.com" class="text-blue-600 hover:underline font-medium">john.doe@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank" class="text-blue-600 hover:underline font-medium">linkedin.com/in/johndoe</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p class="font-medium">&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
